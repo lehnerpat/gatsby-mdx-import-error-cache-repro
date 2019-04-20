@@ -1,27 +1,9 @@
-# Gatsby Starter MDX Basic
+# Gatsby MDX Component Usage Repro
 
-View this starter [live on Netlify](https://gatsby-starter-mdx-basic.netlify.com/)
+* Set up repo based on [_Getting Started_ instructions](https://gatsby-mdx.netlify.com/getting-started), using:
 
-This starter build MDX support into the
-[gatsby-default-starter](https://github.com/gatsbyjs/gatsby-starter-default). Its
-README also applies here.
+    ```
+    npx gatsby new my-mdx-starter https://github.com/ChristopherBiscardi/gatsby-starter-mdx-basic
+    ```
 
-1. Create a new Gatsby site using this starter
-
-```sh
-gatsby new my-site https://github.com/ChristopherBiscardi/gatsby-starter-mdx-basic
-```
-
-2. Install dependencies
-
-```sh
-yarn
-```
-
-3. Run the develop script
-
-```sh
-yarn develop
-```
-
-4. Edit Page 2 in `src/pages/page-2.mdx`
+* Source MDX content from `content/posts/` following [_Programmatically creating pages_](https://gatsby-mdx.netlify.com/guides/programmatically-creating-pages)
