@@ -29,6 +29,15 @@ module.exports = {
         path: `${__dirname}/src/pages`
       }
     },
+    // Add a collection called "posts" that looks
+    // for files in content/posts/
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "posts",
+        path: `${__dirname}/content/posts/`
+      }
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
